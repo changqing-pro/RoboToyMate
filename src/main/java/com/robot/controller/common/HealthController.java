@@ -1,4 +1,4 @@
-package com.robot.common;
+package com.robot.controller.common;
 
 import io.swagger.annotations.Api;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.robot.controller;
+package com.robot.controller.api;
 
 import com.robot.entity.domain.JsonResult;
 import com.robot.service.MQTTService;
