@@ -1,0 +1,30 @@
+server:
+  port: 8091
+  servlet:
+    context-path: /RoboToyMate
+
+spring:
+  application:
+    name: RoboToyMate
+  profiles:
+    active: dev
+  servlet:
+    multipart:
+      max-file-size: 5MB
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#开发环境配置
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+
+# 测试环境
+---
+spring:
+  config:
+    activate:
+      on-profile: test
