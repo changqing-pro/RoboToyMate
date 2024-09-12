@@ -1,4 +1,4 @@
-package com.robot.framework;
+package com.robot.framework.config;
 
 import cn.hutool.core.util.StrUtil;
 import com.fasterxml.jackson.databind.DeserializationFeature;

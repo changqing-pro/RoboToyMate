@@ -1,4 +1,4 @@
-package com.robot.framework;
+package com.robot.framework.config;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.ser.std.ToStringSerializer;
